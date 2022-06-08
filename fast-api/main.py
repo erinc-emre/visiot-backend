@@ -16,7 +16,7 @@ def home():
 
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):
-    model = keras.models.load_model('/Users/erinc/Desktop/fast-api/app/keras_model.h5')
+    model = keras.models.load_model('visiot-backend/fast-api/keras_model.h5')
     data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
     image = Image.open(file.file)
 

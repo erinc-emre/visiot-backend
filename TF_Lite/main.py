@@ -13,8 +13,8 @@ GPIO.setwarnings(False)
 GPIO.setup(18, GPIO.OUT)
 GPIO.output(18, GPIO.LOW)
 
-MODEL_NAME = '/home/erinc/Desktop/visiot-backend/TF_Lite/'
-STREAM_URL = "rtsp://admin:Leblebi2532356@192.168.2.108:554/cam/realmonitor?channel=1@subtype=1"
+MODEL_NAME = '/visiot-backend/TF_Lite/'
+STREAM_URL = "rtsp://admin:12324@192.168.9.123:123/cam/realmonitor?channel=1@subtype=1"
 GRAPH_NAME = 'bird_model2.tflite'
 LABELMAP_NAME = 'label.txt'
 min_conf_threshold = 0.75

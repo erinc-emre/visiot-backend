@@ -73,7 +73,7 @@ class CameraBufferCleanerThread(threading.Thread):
             ret, self.last_frame = self.camera.read()
 
 # Start the camera
-camera = cv2.VideoCapture("rtsp://admin:Leblebi2532356@192.168.2.108:554/cam/realmonitor?channel=1@subtype=1")
+camera = cv2.VideoCapture("rtsp://admin:12324@192.168.9.123:123/cam/realmonitor?channel=1@subtype=1")
 
 # Start the cleaning thread
 cam_cleaner = CameraBufferCleanerThread(camera)

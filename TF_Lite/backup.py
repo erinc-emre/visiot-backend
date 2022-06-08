@@ -9,7 +9,7 @@ import random
 def predict(image):
     start = time.time()
     # Load the model
-    model = keras.models.load_model('/Users/erinc/Desktop/visiot-backend/app/keras_model.h5')
+    model = keras.models.load_model('/visiot-backend/app/keras_model.h5')
     data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
     img2 = image.copy()
@@ -29,7 +29,7 @@ def predict(image):
     print(end - start)
     return prediction
 
-cap = cv2.VideoCapture("rtsp://admin:Leblebi2532356@192.168.2.108:554/cam/realmonitor?channel=1@subtype=1")
+cap = cv2.VideoCapture("rtsp://admin:12324@192.168.9.123:123/cam/realmonitor?channel=1@subtype=1")
 frame_rate = 25
 prev = 0    
 
