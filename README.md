@@ -2,90 +2,90 @@
 This repository contains the VISIOT Project Backend codes. For details of the project, visit https://github.com/erinc-emre/vis-iot
 
 # Version 1
-## RBP Core
+### RBP Core
 ██████████ 100%	
 
-## Object Detetction Model
+### Object Detetction Model
 ██████████ 100%	
 
-## ARM64 Compatible Model
+### ARM64 Compatible Model
 ██████████ 100%	
 
 
 # Version 2
 
-## FastAPI
+### FastAPI
 ████████▁▁ 80%
 
-## Object Detetction Model
+### Object Detetction Model
 ██████▁▁▁▁ 60%		
 
-## ARM64 Compatible Model
+### ARM64 Compatible Model
 ███▁▁▁▁▁▁▁ 30%		
 		
 
-## Trigger Module
+### Trigger Module
 ███████▁▁▁ 70%	
 
-## RBP Core
+### RBP Core
 ████████▁▁ 80%
 
 
 
 
 # Version 3
-## Object Detetction Model
+### Object Detetction Model
 ▁▁▁▁▁▁▁▁▁▁ 0%	
 
-## ARM64 Compatible Model
+### ARM64 Compatible Model
 ▁▁▁▁▁▁▁▁▁▁ 0%	
 
-## FastAPI
+### FastAPI
 ▁▁▁▁▁▁▁▁▁▁ 0%	
 
-## Cloud Core
+### Cloud Core
 ▁▁▁▁▁▁▁▁▁▁ 0%	
 
-## GraphQL
+### GraphQL
 ▁▁▁▁▁▁▁▁▁▁ 0%		
 
-## MQTT Host
+### MQTT Host
 ▁▁▁▁▁▁▁▁▁▁ 0%	
-## MQTT Client
+### MQTT Client
 ▁▁▁▁▁▁▁▁▁▁ 0%	
 
-## Trigger Module
+### Trigger Module
 ▁▁▁▁▁▁▁▁▁▁ 0%	
 
 
 # Version 4
-## Object Detetction Model
+### Object Detetction Model
 ▁▁▁▁▁▁▁▁▁▁ 0%	
 
-## ARM64 Compatible Model
+### ARM64 Compatible Model
 ▁▁▁▁▁▁▁▁▁▁ 0%	
 
-## FastAPI
+### FastAPI
 ▁▁▁▁▁▁▁▁▁▁ 0%	
 
-## Cloud Core
+### Cloud Core
 ▁▁▁▁▁▁▁▁▁▁ 0%	
 
-## GraphQL
+### GraphQL
 ▁▁▁▁▁▁▁▁▁▁ 0%	
 
-## MQTT Host
+### MQTT Host
 ▁▁▁▁▁▁▁▁▁▁ 0%	
 
-## MQTT Client
+### MQTT Client
 ▁▁▁▁▁▁▁▁▁▁ 0%	
 
-## Trigger Module
+### Trigger Module
 ▁▁▁▁▁▁▁▁▁▁ 0%	
 
 
 # Version 5
-## Cloud Orchestration
+### Cloud Orchestration
 ▁▁▁▁▁▁▁▁▁▁ 0%
-## Resource Optimization
+### Resource Optimization
 ▁▁▁▁▁▁▁▁▁▁ 0%
