@@ -13,9 +13,9 @@ GPIO.setwarnings(False)
 GPIO.setup(18, GPIO.OUT)
 GPIO.output(18, GPIO.LOW)
 
-MODEL_NAME = '/visiot-backend/TF_Lite/'
+MODEL_NAME = '/visiot-backend/ObjectDetection/'
 STREAM_URL = "rtsp://admin:12324@192.168.9.123:123/cam/realmonitor?channel=1@subtype=1"
-GRAPH_NAME = 'bird_model2.tflite'
+GRAPH_NAME = 'model.tflite'
 LABELMAP_NAME = 'label.txt'
 min_conf_threshold = 0.75
 imW, imH = 1280, 720
